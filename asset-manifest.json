@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.901ff309.css",
+    "main.js": "/my-app/static/js/main.d0f2ebcb.js",
+    "static/js/787.28cb0dcd.chunk.js": "/my-app/static/js/787.28cb0dcd.chunk.js",
+    "static/media/lognprimegen.mp4": "/my-app/static/media/lognprimegen.f60183f2c517b892d5db.mp4",
+    "static/media/nprimegen.webm": "/my-app/static/media/nprimegen.6bc3b6054304bddb60b8.webm",
+    "static/media/time_complexity.png": "/my-app/static/media/time_complexity.40b76127e23a75c7b072.png",
+    "static/media/linearsearch.png": "/my-app/static/media/linearsearch.a0c2156b525adc2c1a25.png",
+    "static/media/GeeksforGeeks.svg.png": "/my-app/static/media/GeeksforGeeks.svg.fb2cbb6ac34711a998cd.png",
+    "static/media/mergesort.png": "/my-app/static/media/mergesort.34bf92a035bd30cf4da9.png",
+    "static/media/My project.png": "/my-app/static/media/My project.74c7afc21096674e54ac.png",
+    "static/media/logncode.txt": "/my-app/static/media/logncode.9cea435fddf2cc061d42.txt",
+    "static/media/nprimegen.txt": "/my-app/static/media/nprimegen.0d2b4ecb7827e6c3ad25.txt",
+    "index.html": "/my-app/index.html",
+    "main.901ff309.css.map": "/my-app/static/css/main.901ff309.css.map",
+    "main.d0f2ebcb.js.map": "/my-app/static/js/main.d0f2ebcb.js.map",
+    "787.28cb0dcd.chunk.js.map": "/my-app/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.901ff309.css",
+    "static/js/main.d0f2ebcb.js"
+  ]
+}
