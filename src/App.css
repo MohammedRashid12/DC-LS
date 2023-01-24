@@ -1,0 +1,105 @@
+body {
+height: 1500px;
+ margin:auto;
+background-color: #ebe7e1; 
+ 
+}
+
+.title {
+ text-align: center;
+ font-family: 'Arial';
+ font-weight: bolder;
+ font-size: larger;
+ color: #54524f;
+}
+
+.DC{
+ text-align: center;
+ font-family: 'Arial';
+ font-size: 25pt;
+ color: #54524f;
+ margin-top: 70pt;
+}
+
+.LStext{
+  margin-left: 500pt;
+}
+
+.DCimage{
+  position: relative;
+  left: -25%;
+  top: -190px;
+  scale: 30%;
+  
+  border: 10px solid rgb(189, 189, 189);
+}
+
+.LSimage{
+  position: relative;
+  left: 50%;
+  top: -650px;
+  scale: 50%;
+  
+  border: 6px solid rgb(189, 189, 189);
+}
+
+h3{
+  text-align: center;
+  font-family: 'Arial';
+  font-weight: lighter;
+  font-size: 25pt;
+  color: #54524f;
+}
+
+h4{
+  font-family: 'Arial';
+  font-weight: lighter;
+  font-size: 17pt;
+  color: #0e0d0d;
+}
+
+.linearsearch{
+scale: 40%;
+position: relative;
+top: -1150px;
+right: -850px;
+}
+.linearsearchborder {
+  border: 3px solid rgb(189, 189, 189);
+  height: 317px;
+  width: 470px;
+
+  position: relative;
+  top: -1728px;
+  right: -1200px;
+  
+}
+
+
+.mergesortborder{
+  border: 3px solid rgb(189, 189, 189);
+  height: 342px;
+  width: 350px;
+
+  position: relative;
+  top: -2870px;
+  right: -235px;
+}
+
+.mergesort{
+scale: 60%;
+position: relative;
+top: -2210px;
+right: 160px;
+}
+
+a:hover{
+position: relative;
+bottom: 10px;
+filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+
+
+
+
+

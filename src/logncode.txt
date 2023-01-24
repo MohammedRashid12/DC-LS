@@ -1,0 +1,59 @@
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+public class logn_primegen {
+	
+    public static List<Integer> findPrimes(int[] array) {
+        List<Integer> primes = new ArrayList<>();  // use a List to store your prime numbers (its size is dynamic)
+        findPrimes(array, primes, 0, array.length - 1);  //breaking down the original array into a 2 halves
+        return primes;
+    }
+
+    private static void findPrimes(int[] array, List<Integer> primes, int start, int end) {
+        if (start > end) { //checking if the array is less than 0 (array of 1 index)
+            return;
+        }
+
+        if (start == end) { //checking if the array is exactly 0 (array of 1 index)
+            if (isPrime(array[start])) {
+                primes.add(array[start]);  //checking if that array has a prime value on the inside
+            }
+            return;
+        }
+
+        int middle = start + (end - start) / 2; //new array value end point and start point
+        findPrimes(array, primes, start, middle); //calling recursion
+        findPrimes(array, primes, middle + 1, end); //calling recursion
+    }
+
+    private static boolean isPrime(int n) { //checking if each number in the randomly ordered list is a prime or not
+        if (n <= 1) {
+            return false;
+        }
+
+        for (int i = 2; i <= Math.sqrt(n); i++) {
+            if (n % i == 0) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+     public static void main(String[] args) {
+    	long startTime = System.currentTimeMillis();
+        int[] array = new int[100000]; //array of 100000 index storage
+        Random rd = new Random();
+        for (int i = 0; i < array.length; i++) {
+            array[i] = rd.nextInt(100); // storing random integers in an array
+         }
+        List<Integer> primes = findPrimes(array); //finding the primes of the random numbered list
+        System.out.println(primes); // printing the generated prime numbers
+        long endTime = System.currentTimeMillis();
+        long elapsedTime = endTime - startTime;
+        System.out.println("Compilation time: " + elapsedTime + " milliseconds");
+    }
+}
+
